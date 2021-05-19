@@ -1,0 +1,18 @@
+#!/usr/bin/env python
+import sys
+import zstd
+# import json
+import argparse
+
+
+def main(input_file):
+    data = zstd.decompress(input_file.read()).decode()
+    return data
+    # return json.loads(data)
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-i', '--input-file', type=argparse.FileType('r'), default=(None if sys.stdin.isatty() else sys.stdin))
+    args = parser.parse_args()
+    main(args.input_file)
