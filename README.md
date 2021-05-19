@@ -1,3 +1,3 @@
-# zstdtools
+# zstdcat
 
-Zstandard console tools: zstdcat, zstdless
+Zstandard console reader

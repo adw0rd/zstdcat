@@ -1,21 +1,20 @@
 from setuptools import find_packages, setup
 
 setup(
-    name='zstdtools',
-    version='0.1.0',
+    name='zstdcat',
+    version='0.1.1',
     author='Mikhail Andreev',
     author_email='x11org@gmail.com',
     license='MIT',
-    url='https://github.com/adw0rd/zstdtools',
+    url='https://github.com/adw0rd/zstdcat',
     install_requires=['zstd==1.5.0.2'],
     keywords=[
-        'zstdtools', 'zstdcat', 'zstdless', 'zstdmore', 'zstd',
+        'zstdcat', 'zstdless', 'zstdmore', 'zstd',
         'zstandard', 'cat', 'less', 'more'
     ],
-    description='Zstandard console tools: zstdcat, zstdless',
-    long_description="Zstandard console tools: zstdcat, zstdless",
-    # long_description_content_type='text/markdown',
-    scripts=['scripts/zstdcat', 'scripts/zstdless'],
+    description='Zstandard console reader',
+    long_description="Zstandard console reader",
+    scripts=['scripts/zstdcat'],
     packages=find_packages(),
     python_requires=">=3.6",
     include_package_data=True,
