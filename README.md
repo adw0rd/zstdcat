@@ -1,3 +1,12 @@
+![PyPI](https://img.shields.io/pypi/v/zstdcat)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/zstdcat)
+
+[![Downloads](https://pepy.tech/badge/zstdcat)](https://pepy.tech/project/zstdcat)
+[![Downloads](https://pepy.tech/badge/zstdcat/month)](https://pepy.tech/project/zstdcat)
+[![Downloads](https://pepy.tech/badge/zstdcat/week)](https://pepy.tech/project/zstdcat)
+
+[![Donate](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/adw0rd)
+
 # zstdcat
 
 Zstandard console reader
